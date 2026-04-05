@@ -1,1 +1,101 @@
-
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Truy cập bị chặn</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: linear-gradient(160deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      color: #e8e8e8;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 1.5rem;
+    }
+    .card {
+      max-width: 32rem;
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 12px;
+      padding: 2rem 1.75rem;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35);
+    }
+    .icon {
+      width: 3rem;
+      height: 3rem;
+      margin: 0 auto 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(220, 53, 69, 0.2);
+      border-radius: 50%;
+      font-size: 1.5rem;
+    }
+    h1 {
+      margin: 0 0 0.75rem;
+      font-size: 1.35rem;
+      font-weight: 700;
+      text-align: center;
+      color: #fff;
+    }
+    p {
+      margin: 0 0 1rem;
+      font-size: 0.95rem;
+      line-height: 1.6;
+      color: #c8c8d4;
+      text-align: center;
+    }
+    p:last-of-type {
+      margin-bottom: 0;
+    }
+    .reasons {
+      text-align: left;
+      margin: 1.25rem 0 0;
+      padding: 1rem 1rem 1rem 2rem;
+      background: rgba(0, 0, 0, 0.2);
+      border-radius: 8px;
+      font-size: 0.9rem;
+      line-height: 1.7;
+      color: #b8b8c8;
+    }
+    .reasons li {
+      margin-bottom: 0.35rem;
+    }
+    .reasons li:last-child {
+      margin-bottom: 0;
+    }
+    .footer {
+      margin-top: 1.5rem;
+      padding-top: 1rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 0.8rem;
+      color: #8888a0;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="icon" aria-hidden="true">⚠</div>
+    <h1>Truy cập bị chặn</h1>
+    <p>
+      Liên kết hoặc trang bạn đang cố mở đã bị chặn để bảo vệ thiết bị và dữ liệu của bạn.
+    </p>
+    <ul class="reasons">
+      <li>Liên kết độc hại (malware, mã độc)</li>
+      <li>Lừa đảo, giả mạo thương hiệu hoặc ngân hàng</li>
+      <li>Vi phạm chính sách an toàn hoặc danh sách chặn nội bộ</li>
+    </ul>
+    <p class="footer">
+      Nếu bạn cho rằng đây là nhầm lẫn, hãy liên hệ quản trị viên hoặc bộ phận hỗ trợ.
+    </p>
+  </div>
+</body>
+</html>
